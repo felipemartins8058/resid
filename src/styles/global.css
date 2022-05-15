@@ -1,0 +1,54 @@
+:root{
+    --swiper-theme-color:#001B34 !important;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #001b34;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: 33% !important;
+    width: 5em !important;
+    height: 5em !important;
+    border-radius: 100% !important;
+    backdrop-filter: blur(8px);
+    background: rgba(40, 47, 68, 0.08);
+    /* Gray Primary */
+
+    border: 1px solid #ececec;
+}
+
+@media (max-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 20% !important;
+        width: 2em!important;
+        height: 2em!important;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after{
+        font-size: 1em!important;
+    } 
+}
