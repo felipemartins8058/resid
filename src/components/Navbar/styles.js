@@ -20,20 +20,9 @@ export const Flex50 = styled.div`
     flex:  0 0 50%;
 `
 
-export const LogoTitle = styled.h2`
-    font-family: "Playfair Display";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 56px;
-    text-align: center;
-    /* identical to box height */
-
-    text-transform: uppercase;
-
-    /* Gray Primary */
-
-    color: #ececec;
+export const Logo = styled.div`
+    max-width: 100px;
+    margin: auto;
 `;
 
 export const InfoBox = styled.div`

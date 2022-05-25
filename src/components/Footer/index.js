@@ -19,7 +19,7 @@ const Footer = () => {
                         <StaticImage src="../../images/whatsapp.png" />
                     </div>
                     <div className="info-box">
-                        <S.SmallText>85 98765.4321</S.SmallText>
+                        <S.SmallText>84 98808-8383</S.SmallText>
                     </div>
                 </S.InfoBox>
                 <S.InfoBox>
@@ -27,7 +27,7 @@ const Footer = () => {
                         <StaticImage src="../../images/instagram.png" />
                     </div>
                     <div className="info-box">
-                        <S.SmallText>@resid.imoveis</S.SmallText>
+                        <S.SmallText>@sigaresid</S.SmallText>
                     </div>
                 </S.InfoBox>
                 <S.InfoBox>
@@ -35,7 +35,7 @@ const Footer = () => {
                         <StaticImage src="../../images/phone.png" />
                     </div>
                     <div className="info-box">
-                        <S.SmallText>85 98765.4321</S.SmallText>
+                        <S.SmallText>84 98808-8383</S.SmallText>
                     </div>
                 </S.InfoBox>
             </div>

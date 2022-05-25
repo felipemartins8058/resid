@@ -11,23 +11,23 @@ const About = () => {
                 <S.Display4>Nossos Clientes</S.Display4>
                 <S.OwnerWrapper>
                     <S.OwnerImage>
-                        <StaticImage src="../../images/perfil.png" alt="Fulano" />
+                        <StaticImage src="../../images/cliente1.png" alt="Fulano" />
                     </S.OwnerImage>
                     <S.OwnerInfo>
-                        <S.Display4>Cliente 1</S.Display4>
+                        <S.Display4>Marlon Arruda</S.Display4>
                         <S.Text>
-                            "Duis congue lectus nec eros efficitur vulputate. Maecenas posuere pulvinar ante in congue."
+                            "A Resid nos acompanhou desde o inicio, da escolha do lote junto com os corretores parceiros, até toda a resolução de documentação do lote junto a incorporadora do condomínio. Em nenhum momento a gente ficou sem saber informações de como estava nosso processo. Trouxeram total credibilidade."
                         </S.Text>
                     </S.OwnerInfo>
                 </S.OwnerWrapper>
                 <S.OwnerWrapper>
                     <S.OwnerImage>
-                        <StaticImage src="../../images/perfil.png" alt="Fulano" />
+                        <StaticImage src="../../images/cliente2.png" alt="Fulano" />
                     </S.OwnerImage>
                     <S.OwnerInfo>
-                        <S.Display4>Cliente 2</S.Display4>
+                        <S.Display4>Victor & Ingrid Andrade</S.Display4>
                         <S.Text>
-                            "Duis congue lectus nec eros efficitur vulputate. Maecenas posuere pulvinar ante in congue."
+                            "Eu que já acompanhei algumas obras de construção civil, nunca vi nada parecido. Então eu sempre faço questão de indicar para amigos, familiares ou qualquer pessoa que me pergunta como está a minha, pois eles além de realizar o sonho, a sua casa vai estar dentro dos maiores padrões da construção cívil atualmente"
                         </S.Text>
                     </S.OwnerInfo>
                 </S.OwnerWrapper>

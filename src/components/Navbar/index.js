@@ -9,15 +9,17 @@ const Navbar = () => {
                 <StaticImage src="../../images/menu.png" />
             </S.Flex25>
             <S.Flex50>
-                <S.LogoTitle>Resid</S.LogoTitle>
+                <S.Logo>
+                    <StaticImage src="../../images/logo.png" quality={1} />
+                </S.Logo>
             </S.Flex50>
             <S.Flex25>
                 <S.InfoBox>
                     <div>
-                        <StaticImage src="../../images/phone.png" />
+                        <StaticImage src="../../images/whatsapp.png" />
                     </div>
                     <div className="info-box">
-                        <S.SmallText>(85)98765.4321</S.SmallText>
+                        <S.SmallText>(84)98808.8383</S.SmallText>
                     </div>
                 </S.InfoBox>
             </S.Flex25>
