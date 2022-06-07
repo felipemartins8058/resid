@@ -5,15 +5,15 @@ import * as S from "./styles";
 const Navbar = () => {
     return (
         <S.Navbar>
-            <S.Flex25>
+            {/* <S.Flex25>
                 <StaticImage src="../../images/menu.png" />
-            </S.Flex25>
+            </S.Flex25> */}
             <S.Flex50>
                 <S.Logo>
                     <StaticImage src="../../images/logo.png" quality={1} />
                 </S.Logo>
             </S.Flex50>
-            <S.Flex25>
+            <S.Flex50>
                 <S.InfoBox>
                     <div>
                         <StaticImage src="../../images/whatsapp.png" />
@@ -22,7 +22,7 @@ const Navbar = () => {
                         <S.SmallText>(84)98808.8383</S.SmallText>
                     </div>
                 </S.InfoBox>
-            </S.Flex25>
+            </S.Flex50>
         </S.Navbar>
     );
 };

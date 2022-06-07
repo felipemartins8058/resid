@@ -4,7 +4,7 @@ import media from "../../images/advantagens.png";
 export const AdvantagesWrapper = styled.section`
     position: relative;
     padding: 5rem 0 2rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
     /* background: url(${media}) no-repeat center; */
 `;
 
@@ -28,9 +28,10 @@ export const ImageBackground = styled.div`
 export const AdvantagesGrid = styled.div`
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, 255px);
+    grid-template-columns: repeat(2, 570px);
     justify-content: center;
     gap: 60px;
+    margin-bottom: 1rem;
 
     @media (max-width: 768px) {
         grid-template-columns: 1fr;
@@ -44,11 +45,20 @@ export const AdvantagesItem = styled.div`
 `;
 
 export const Text = styled.p`
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #ececec;
+    margin-bottom: 1rem;
+`;
+
+export const TextSmall = styled.p`
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
-    line-height: 28px;
+    font-size: 1em;
+    line-height: 1.333em;
     color: #ececec;
 `;
 
@@ -97,7 +107,7 @@ export const Subtitle = styled.h2`
 `;
 
 export const AdvantagesImage = styled.div`
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 `;
 
 export const TransparentButton = styled.a`

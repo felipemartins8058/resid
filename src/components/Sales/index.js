@@ -13,15 +13,15 @@ const Sales = () => {
     return (
         <S.SalesWrapper>
             <S.SalesTitleWrapper>
-                <S.Subtitle>Lotes</S.Subtitle>
-                <S.Display1>à venda</S.Display1>
+                <S.Subtitle>Nossas</S.Subtitle>
+                <S.Display1>Realizações</S.Display1>
             </S.SalesTitleWrapper>
             {/* <S.Display1>Casas Prontas</S.Display1> */}
             <Swiper spaceBetween={60} navigation={true} slidesPerView={1} breakpoints={{767:{slidesPerView: 2}}} modules={[Navigation]} onSlideChange={() => console.log("slide change")} onSwiper={(swiper) => console.log(swiper)}>
-                <SwiperSlide><House title={"Lote Schönbrunn"} image={1} text={"Victory Gallery is at your service – your personal space for shopping and entertainment, featuring a swimming pool and a spa, beauty salons, restaurants and gastropubs, cinemas and an oceanarium. Discover a plethora of ways to treat yourself and show your loved ones that you care for them."} /></SwiperSlide>
-                <SwiperSlide><House title={"Lote Residence"} image={2} text={"Victory Gallery is at your service – your personal space for shopping and entertainment, featuring a swimming pool and a spa, beauty salons, restaurants and gastropubs, cinemas and an oceanarium. Discover a plethora of ways to treat yourself and show your loved ones that you care for them."} /></SwiperSlide>
-                <SwiperSlide><House title={"Lote Residence"} image={1} text={"Victory Gallery is at your service – your personal space for shopping and entertainment, featuring a swimming pool and a spa, beauty salons, restaurants and gastropubs, cinemas and an oceanarium. Discover a plethora of ways to treat yourself and show your loved ones that you care for them."} /></SwiperSlide>
-                <SwiperSlide><House title={"Lote Schönbrunn"} image={2} text={"Victory Gallery is at your service – your personal space for shopping and entertainment, featuring a swimming pool and a spa, beauty salons, restaurants and gastropubs, cinemas and an oceanarium. Discover a plethora of ways to treat yourself and show your loved ones that you care for them."} /></SwiperSlide>
+                <SwiperSlide><House title={"Condomínio Central Park II"} image={1} text={"Tamanho: 187 m2"}  /></SwiperSlide>
+                <SwiperSlide><House title={"Casa Térrea Condomínio Parque Morumbi"} image={2} text={"Tamanho: 192 m2"}  /></SwiperSlide>
+                <SwiperSlide><House title={"Casa Térrea Condomínio Parque Morumbi"} image={3} text={"Tamanho: 232 m2"} /></SwiperSlide>
+                <SwiperSlide><House title={"Condomínio Alphaville"} image={4} text={"Tamanho: 235 m2"} /></SwiperSlide>
             </Swiper>
         </S.SalesWrapper>
     );

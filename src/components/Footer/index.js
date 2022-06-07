@@ -1,16 +1,17 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import CTA from "../CTA";
-import *  as S from "./styles";
-
+import * as S from "./styles";
 
 const Footer = () => {
     return (
         <S.Footer>
             <div className="flex-container">
-                <S.Display3>Resid</S.Display3>
-                <S.SmallText>Central heating convectors along the perimeter of the apartment. Central heating convectors along the perimeter of the apartment</S.SmallText>
-                <CTA mt={3} text={"Lorem Ipsum Dolor"} />
+                <S.Logo>
+                    <StaticImage src="../../images/logo.png" quality={1} />
+                </S.Logo>
+                <S.SmallText>A Resid é mais que uma construtora, somo parceiros do nossos clientes e buscamos resolver todas os percalços que uma construção possa vir a ter, para que o cliente consiga curtir todas as fases da construção, desde a aquisição do terreno até a entrega das chaves. <br/> <br/>  <strong>Resid, casa com o seu jeito.</strong></S.SmallText>
+                <CTA mt={3} text={"Inicie sua casa nova"} />
             </div>
             <div>
                 <S.Display4>Entre em contato</S.Display4>
@@ -40,7 +41,7 @@ const Footer = () => {
                 </S.InfoBox>
             </div>
         </S.Footer>
-    )
-}
+    );
+};
 
 export default Footer;

@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <S.HeroWrapper>
             <S.HeroBackground>
-                <StaticImage layout='fullWidth' src="../../images/heroteste.jpg" alt="Hero" />
+                <StaticImage layout='fullWidth' src="../../images/hero.jpeg" alt="Hero" />
             </S.HeroBackground>
             <S.HeroTitleWrapper>
                 <S.Subtitle>Resid</S.Subtitle>

@@ -7,10 +7,16 @@ const House = ({ ...props }) => {
     function SwitchImage(imageName) {
         switch (imageName) {
             case 1:
-                return <StaticImage src={"../../images/lote1.jpg"} layout="fullWidth" />;
+                return <StaticImage src={"../../images/187.jpeg"} layout="fullWidth" />;
                 break;
             case 2:
-                return <StaticImage src={"../../images/lote2.jpg"} layout="fullWidth" />;
+                return <StaticImage src={"../../images/192.jpg"} layout="fullWidth" />;
+                break;
+            case 3:
+                return <StaticImage src={"../../images/232.jpeg"} layout="fullWidth" />;
+                break;
+            case 4:
+                return <StaticImage src={"../../images/235.jpeg"} layout="fullWidth" />;
                 break;
             default:
                 return <h1>Erro</h1>;
@@ -23,7 +29,6 @@ const House = ({ ...props }) => {
             <div className="px-1">
                 <S.Display3>{props.title}</S.Display3>
                 <S.Text>{props.text}</S.Text>
-                <CTA text={"Quero meu lote"} mt={2} />
             </div>
         </S.HouseWrapper>
     );

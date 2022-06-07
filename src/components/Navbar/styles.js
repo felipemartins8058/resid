@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Navbar = styled.nav`
     display: flex;
-    padding: 0 1rem;
-    background: linear-gradient(180deg, #282f44 -129.58%, rgba(40, 47, 68, 0) 100%);
-    height: 60px;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(180deg, #001b34 0.58%, rgba(40, 47, 68, 0) 100%);
     width: 100%;
     position: fixed;
     top: 0;
@@ -22,14 +22,13 @@ export const Flex50 = styled.div`
 
 export const Logo = styled.div`
     max-width: 100px;
-    margin: auto;
+    /* margin: auto; */
 `;
 
 export const InfoBox = styled.div`
-    margin-top: 1rem;
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: .5rem;
     justify-content: flex-end;
 
     .info-box {

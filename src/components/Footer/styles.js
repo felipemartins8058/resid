@@ -82,3 +82,9 @@ export const InfoBox = styled.div`
         }
     }
 `;
+
+export const Logo = styled.div`
+    max-width: 150px;
+    margin-bottom: 1rem;
+    margin-left: -7px;
+`;

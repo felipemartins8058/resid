@@ -39,6 +39,10 @@ export const Display4 = styled.h4`
     line-height: 41px;
     color: #ececec;
     margin-bottom: 1rem;
+
+    @media (max-width: 768px) {
+        margin-bottom: 4rem;
+    }
 `;
 
 export const Text = styled.p`
@@ -55,10 +59,18 @@ export const OwnerWrapper = styled.div`
     align-items: center;
     gap: 1rem;
     margin-bottom: 3rem;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const OwnerImage = styled.div`
     flex: 0 0 30%;
+
+    @media (max-width: 768px) {
+        flex: 1;
+    }
 `;
 
 export const OwnerInfo = styled.div`
@@ -100,6 +112,6 @@ export const Subtitle = styled.h2`
     bottom: 0;
 
     @media (max-width: 768px) {
-        left: -8%;
+        left: -34%;
     }
 `;

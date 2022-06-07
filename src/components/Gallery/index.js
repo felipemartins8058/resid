@@ -7,8 +7,8 @@ const Gallery = () => {
         <S.GalleryWrapper>
             <GallerySlide/>
             <S.GalleryTitleWrapper>
-                <S.Display1>Gallery</S.Display1>
-                <S.Subtitle>Luxury</S.Subtitle>
+                <S.Display1>Realizações</S.Display1>
+                <S.Subtitle>Galeria</S.Subtitle>
             </S.GalleryTitleWrapper>
         </S.GalleryWrapper>
     )
