@@ -16,7 +16,7 @@ const House = ({ ...props }) => {
                 return <StaticImage src={"../../images/232.jpeg"} layout="fullWidth" />;
                 break;
             case 4:
-                return <StaticImage src={"../../images/235.jpeg"} layout="fullWidth" />;
+                return <StaticImage src={"../../images/235.jpg"} layout="fullWidth" />;
                 break;
             default:
                 return <h1>Erro</h1>;

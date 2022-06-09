@@ -11,7 +11,7 @@ const About = () => {
                 <S.Display4>Nossos Clientes</S.Display4>
                 <S.OwnerWrapper>
                     <S.OwnerImage>
-                        <StaticImage src="../../images/cliente1.png" alt="Fulano" />
+                        <StaticImage src="../../images/cliente1.jpg" alt="Fulano" />
                     </S.OwnerImage>
                     <S.OwnerInfo>
                         <S.Display4>Marlon Arruda</S.Display4>
@@ -22,7 +22,7 @@ const About = () => {
                 </S.OwnerWrapper>
                 <S.OwnerWrapper>
                     <S.OwnerImage>
-                        <StaticImage src="../../images/cliente2.png" alt="Fulano" />
+                        <StaticImage src="../../images/cliente2.jpg" alt="Fulano" />
                     </S.OwnerImage>
                     <S.OwnerInfo>
                         <S.Display4>Victor & Ingrid Andrade</S.Display4>
