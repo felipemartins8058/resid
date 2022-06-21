@@ -12,7 +12,7 @@ const Contact = () => (
             </S.Display2>
             <S.Subtitle>uma</S.Subtitle>
             <S.FormWrapper>
-                <form name="contact" method="POST" data-netlify="true">
+                <form>
                     <Input id="name" name="nome" type="text" label="Nome" required={true} />
                     <Input id="email" name="email" type="email" label="E-mail" required={true} />
                     <Input id="number" name="numero" type="number" label="Whatsapp" required={true} />
