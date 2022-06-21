@@ -43,6 +43,7 @@ const About = () => {
                     <Input id="name" name="nome" type="text" label="Nome" required={true} />
                     <Input id="email" name="email" type="email" label="E-mail" required={true} />
                     <Input id="number" name="numero" type="number" label="Whatsapp" required={true} />
+                    <input type="hidden" name="form-name" value="contact" />
                     <S.Button background={"001B34"} mt={2} type="submit">Enviar</S.Button>
                 </form>
             </S.ContactWrapper>
