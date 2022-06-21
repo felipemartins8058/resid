@@ -1,6 +1,5 @@
 import React from "react";
 import Input from "../Input";
-import CTA from "../CTA";
 import * as S from "./styles";
 
 const Contact = () => (
@@ -13,11 +12,11 @@ const Contact = () => (
             </S.Display2>
             <S.Subtitle>uma</S.Subtitle>
             <S.FormWrapper>
-                <form>
-                    <Input id="name" type="text" label="Nome" required={true} />
-                    <Input id="email" type="email" label="E-mail" required={true} />
-                    <Input id="number" type="number" label="Whatsapp" required={true} />
-                    <CTA bg={"001B34"} text={"Lorem Ipsum"} mt={3} />
+                <form name="contact" method="POST" data-netlify="true">
+                    <Input id="name" name="nome" type="text" label="Nome" required={true} />
+                    <Input id="email" name="email" type="email" label="E-mail" required={true} />
+                    <Input id="number" name="numero" type="number" label="Whatsapp" required={true} />
+                    <S.Button type="submit">Enviar</S.Button>
                 </form>
             </S.FormWrapper>
         </S.ContactTitleWrapper>
